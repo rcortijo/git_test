@@ -1,0 +1,78 @@
+[{
+    "id": 123456,
+    "titulo": "titulo de evento 1",
+    "descripcion": "aprobas presupuesto anual de la entidad",
+    "logo": "logo del evento en formato string Base64",
+	  "tipoEvento": {
+	    "id": "1",
+	    "name": "Votacion"
+	    },
+  	"participantes":[
+  	    {"id":"1", "email":"participante1@gmail.com", "nombre":"Nombre1", "lastName":"Apellido1", "votosAsig":"1"},
+  	    {"id":"2", "email":"participante2@gmail.com", "nombre":"Nombre2", "lastName":"Apellido2", "votosAsig":"1"},
+  	    {"id":"3", "email":"participante3@gmail.com", "nombre":"Nombre3", "lastName":"Apellido3", "votosAsig":"1"}
+  	    ],
+  	"publicar":true,
+  	"cerrado":false,
+  	"pregunta":{
+  	  "descripcion": "aprobas presupuesto anual de la entidad?"
+  	},
+  	"opciones":[
+  	  {"id":"1", "descripcion":"si"},
+  	  {"id":"2", "descripcion":"no"}
+  	  ]
+  },
+  {
+    "id": 123457,
+    "titulo": "titulo de evento 2",
+    "descripcion": "eleccion presidente entidad",
+    "logo": "logo del evento en formato string Base64",
+	  "tipoEvento": {
+	    "id": "1",
+	    "name": "Votacion"
+	    },
+  	"participantes":[
+  	    {"id":"1", "email":"participante1@gmail.com", "nombre":"Nombre1", "lastName":"Apellido1", "votosAsig":"1"},
+  	    {"id":"2", "email":"participante2@gmail.com", "nombre":"Nombre2", "lastName":"Apellido2", "votosAsig":"1"},
+  	    {"id":"3", "email":"participante3@gmail.com", "nombre":"Nombre3", "lastName":"Apellido3", "votosAsig":"1"}
+  	    ],
+  	"publicar":true,
+  	"cerrado":false,
+  	"pregunta":{
+  	  "descripcion": "eleccion presidente entidad?"
+  	},
+  	"opciones":[
+  	  {"id":"1", "descripcion":"Juan"},
+  	  {"id":"2", "descripcion":"Ana"},
+  	  {"id":"3", "descripcion":"Carmen"},
+  	  {"id":"4", "descripcion":"Jordi"}
+  	  ]
+  },
+  {
+    "id": 123458,
+    "titulo": "titulo de evento 3",
+    "descripcion": "como valoras los resultados de la conferencia sobre adopcion de medidas participativas",
+    "logo": "logo del evento en formato string Base64",
+	  "tipoEvento": {
+	    "id": "1",
+	    "name": "Votacion"
+	    },
+  	"participantes":[
+  	    {"id":"1", "email":"participante1@gmail.com", "nombre":"Nombre1", "lastName":"Apellido1", "votosAsig":"1"},
+  	    {"id":"2", "email":"participante2@gmail.com", "nombre":"Nombre2", "lastName":"Apellido2", "votosAsig":"1"},
+  	    {"id":"3", "email":"participante3@gmail.com", "nombre":"Nombre3", "lastName":"Apellido3", "votosAsig":"1"}
+  	    ],
+  	"publicar":true,
+  	"cerrado":false,
+  	"pregunta":{
+  	  "descripcion": "como valoras los resultados de la conferencia sobre adopcion de medidas participativas?"
+  	},
+  	"opciones":[
+  	  {"id":"1", "descripcion":"Muy buenos"},
+  	  {"id":"2", "descripcion":"Buenos"},
+  	  {"id":"3", "descripcion":"Indiferente"},
+  	  {"id":"4", "descripcion":"Malos"},
+  	  {"id":"5", "descripcion":"Muy malos"}
+  	  ]
+  }
+]
